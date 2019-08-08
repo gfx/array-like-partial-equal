@@ -11,7 +11,7 @@ npm install @gfx/array-like-partial-equal
 ## Synopsis
 
 ```typescript
-import { arrayLikePartialEqual } from "../src";
+import { arrayLikePartialEqual } from "@gfx/array-like-partial-equal";
 
 const a: ArrayLike<number> = [99, 1, 2, 3, 98];
 const b: ArrayLike<number> = [10, 1, 2, 3, 20];
