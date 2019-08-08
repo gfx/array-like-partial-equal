@@ -2,6 +2,9 @@
   "name": "@gfx/array-like-partial-equal",
   "version": "0.0.1",
   "description": "Comparesion of Subarrays of Two Arrays",
+  "publishConfig": {
+    "access": "public"
+  },
   "homepage": "https://github.com/gfx/array-like-partial-equal",
   "repository": {
     "type": "git",
