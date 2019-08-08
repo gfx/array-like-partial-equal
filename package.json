@@ -1,18 +1,18 @@
 {
-  "name": "array-like-partial-equal",
+  "name": "@gfx/array-like-partial-equal",
   "version": "1.0.0",
   "description": "Comparesion of Subarrays of Two Arrays",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
-  "author": "",
+  "author": "FUJI Goro",
   "license": "ISC",
   "devDependencies": {
-    "@types/jest": "^24.0.17",
-    "jest": "^24.8.0",
-    "ts-jest": "^24.0.2",
-    "ts-node": "^8.3.0",
-    "typescript": "^3.5.3"
+    "@types/jest": "latest",
+    "jest": "latest",
+    "ts-jest": "latest",
+    "ts-node": "latest",
+    "typescript": "latest"
   }
 }
