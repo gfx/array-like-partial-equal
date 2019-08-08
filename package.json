@@ -4,10 +4,13 @@
   "description": "Comparesion of Subarrays of Two Arrays",
   "main": "dist/index.js",
   "scripts": {
+    "prepare": "rm -rf dist && npx tsc -p tsconfig.dist.json",
+    "prepublishOnly": "npm run test",
     "test": "jest"
   },
   "author": "FUJI Goro",
   "license": "ISC",
+  "keywords": ["array", "array-like", "equal"],
   "devDependencies": {
     "@types/jest": "latest",
     "jest": "latest",
